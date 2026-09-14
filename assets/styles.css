@@ -149,10 +149,14 @@ nav.primary a.active{ color:var(--green); border-bottom-color:var(--gold); }
 .page-band{ background: var(--green-dark); color:#fff; padding:44px 0 38px; overflow:hidden; position:relative; border-bottom:2px solid var(--gold); }
 .page-band .wrap{ position:relative; z-index:2; }
 .page-band h1{ color:#fff; margin:.2em 0 0; font-size:clamp(1.6rem,2.8vw,2.3rem); }
-.crumb{ font-family:"Inter",sans-serif; font-size:.78rem; letter-spacing:.03em; color:rgba(255,255,255,.65); }
-.crumb a{ text-decoration:none; color:rgba(255,255,255,.65); }
+.crumb{ display:block; font-family:"Roboto Condensed",sans-serif; font-size:.8rem; letter-spacing:.03em; color:rgba(255,255,255,.72); margin-bottom:10px; }
+.crumb a{ text-decoration:none; color:rgba(255,255,255,.72); }
 .crumb a:hover{ color:var(--gold); }
 .crumb b{ color:var(--gold); font-weight:600; }
+.crumb.on-light{ color:var(--ink-soft); }
+.crumb.on-light a{ color:var(--ink-soft); }
+.crumb.on-light a:hover{ color:var(--green); }
+.crumb.on-light b{ color:var(--gold-deep); }
 
 /* ============ HERO (split: copy + rounded photo) ============ */
 .hero{ background:var(--bg); padding:52px 0 0; overflow:hidden; }
