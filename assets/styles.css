@@ -266,6 +266,9 @@ nav.primary a.active{ color:var(--green); border-bottom-color:var(--gold); }
 /* ============ FEATURE / VALUE CARDS (3-col) ============ */
 .feature-grid, .values-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:22px; }
 @media (max-width:760px){ .feature-grid, .values-grid{ grid-template-columns:1fr; } }
+.feature-grid.feature-grid-4{ grid-template-columns:repeat(4,1fr); }
+@media (max-width:1100px){ .feature-grid.feature-grid-4{ grid-template-columns:repeat(2,1fr); } }
+@media (max-width:600px){ .feature-grid.feature-grid-4{ grid-template-columns:1fr; } }
 .feature-card, .value-card{ background:var(--white); border:1px solid var(--line); border-radius:var(--r-card); padding:26px 22px; box-shadow:var(--shadow); text-align:center; }
 .feature-icon, .value-icon{ width:52px; height:52px; border-radius:50%; background:var(--gold-tint); display:flex; align-items:center; justify-content:center; margin:0 auto 14px; }
 .feature-icon svg, .value-icon svg{ width:24px; height:24px; color:var(--gold-deep); }
