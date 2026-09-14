@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const subject = encodeURIComponent(form.subject ? form.subject.value : 'Website enquiry');
       const name = `${form.fname ? form.fname.value : ''} ${form.lname ? form.lname.value : ''}`.trim();
       const body = encodeURIComponent(`${form.message.value}\n\nFrom: ${name} (${form.email.value}${form.phone && form.phone.value ? ', ' + form.phone.value : ''})`);
-      window.location.href = `mailto:info@thembilefoodsecuritysa.org.za?subject=${subject}&body=${body}`;
+      window.location.href = `mailto:info@thembilefoodsecurty.org.za?subject=${subject}&body=${body}`;
     });
   }
 
