@@ -573,6 +573,9 @@ footer a:hover{ color:var(--gold); }
 
 .skip-link{ position:absolute; left:-999px; top:0; background:var(--gold); color:var(--green-dark); padding:10px 16px; z-index:200; }
 
+/* visually hidden but readable by screen readers / search engines */
+.sr-only{ position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+
 /* ============ LEAF / GROWTH ACCENT (community gardens & sustainability content) ============ */
 .text-leaf{ color:var(--leaf-deep); }
 .eyebrow.on-leaf{ color:var(--leaf-deep); }
